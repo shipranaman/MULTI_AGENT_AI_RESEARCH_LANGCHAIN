@@ -50,44 +50,16 @@ User Research Query
  Final Research Report
 ```
 
----
-
-## Application Preview
-
-### Research Workflow
-
-![Research Workflow](images/01-Workflow.png)
-
----
-
-### Streamlit Interface
-
-![Application Home](images/02-Application.png)
-
----
-
-### Generated Research Report
-
-![Generated Report](images/03-Report.png)
-
----
-
-### Final Pipeline Results
-
-![Final Results](images/04-Results.png)
-
----
 
 ## Technologies Used
 
 ### AI Frameworks
 
 - LangChain
-- LangGraph
 
 ### Large Language Model
 
-- Google Gemini
+- MISTRAL.AI
 
 ### Search
 
