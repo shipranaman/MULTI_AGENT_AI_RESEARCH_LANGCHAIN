@@ -4,13 +4,13 @@
 
 This project is an AI-powered Multi-Agent Research System that automates end-to-end web research using specialized AI agents. Instead of relying on a single LLM response, the system follows a structured multi-agent workflow where each agent performs a dedicated task such as searching the web, extracting webpage content, generating research reports, and reviewing the final output.
 
-The application is built using LangChain, LangGraph, Google Gemini, Tavily Search API, BeautifulSoup, and Streamlit.
+The application is built using LangChain, Mistral.ai, Tavily Search API, BeautifulSoup, and Streamlit.
 
 ---
 
 ## Features
 
-- Multi-Agent architecture using LangGraph
+- Multi-Agent architecture using LangChain
 - AI-powered Search Agent
 - Reader Agent for webpage understanding
 - Live web search using Tavily Search API
@@ -19,7 +19,6 @@ The application is built using LangChain, LangGraph, Google Gemini, Tavily Searc
 - Critic Chain for response validation
 - Source-aware research reports
 - Interactive Streamlit interface
-- Modular and extensible architecture
 
 ---
 
@@ -96,18 +95,17 @@ Processes the collected information and generates a structured research report.
 
 ### Critic Chain
 
-Reviews the generated report, validates the quality of the response, and improves the final output before presenting it to the user.
+Reviews the generated report, validates the quality of the response
 
 ---
 
 ## Skills Demonstrated
 
 - Multi-Agent Systems
-- LangGraph State Management
 - LangChain Agents
 - AI Workflow Orchestration
 - Prompt Engineering
-- Google Gemini Integration
+- MISTRAL.AI Integration
 - Tavily API Integration
 - Web Scraping
 - Python Development
